@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F486BCFD2168306800A22CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486BCFC2168306800A22CEE /* AppDelegate.swift */; };
+		F486BCFF2168306800A22CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486BCFE2168306800A22CEE /* ViewController.swift */; };
+		F486BD022168306800A22CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F486BD002168306800A22CEE /* Main.storyboard */; };
+		F486BD042168306C00A22CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F486BD032168306C00A22CEE /* Assets.xcassets */; };
+		F486BD072168306C00A22CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F486BD052168306C00A22CEE /* LaunchScreen.storyboard */; };
+		F486BD122168306C00A22CEE /* WebsocketAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486BD112168306C00A22CEE /* WebsocketAppiOSTests.swift */; };
+		F486BD1D2168306C00A22CEE /* WebsocketAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F486BD1C2168306C00A22CEE /* WebsocketAppiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F486BD0E2168306C00A22CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F486BCF12168306700A22CEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F486BCF82168306800A22CEE;
+			remoteInfo = WebsocketAppiOS;
+		};
+		F486BD192168306C00A22CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F486BCF12168306700A22CEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F486BCF82168306800A22CEE;
+			remoteInfo = WebsocketAppiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F486BCF92168306800A22CEE /* WebsocketAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebsocketAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486BCFC2168306800A22CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F486BCFE2168306800A22CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F486BD012168306800A22CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F486BD032168306C00A22CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F486BD062168306C00A22CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F486BD082168306C00A22CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F486BD0D2168306C00A22CEE /* WebsocketAppiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebsocketAppiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486BD112168306C00A22CEE /* WebsocketAppiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketAppiOSTests.swift; sourceTree = "<group>"; };
+		F486BD132168306C00A22CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F486BD182168306C00A22CEE /* WebsocketAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebsocketAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F486BD1C2168306C00A22CEE /* WebsocketAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsocketAppiOSUITests.swift; sourceTree = "<group>"; };
+		F486BD1E2168306C00A22CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F486BCF62168306800A22CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD0A2168306C00A22CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD152168306C00A22CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F486BCF02168306700A22CEE = {
+			isa = PBXGroup;
+			children = (
+				F486BCFB2168306800A22CEE /* WebsocketAppiOS */,
+				F486BD102168306C00A22CEE /* WebsocketAppiOSTests */,
+				F486BD1B2168306C00A22CEE /* WebsocketAppiOSUITests */,
+				F486BCFA2168306800A22CEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F486BCFA2168306800A22CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F486BCF92168306800A22CEE /* WebsocketAppiOS.app */,
+				F486BD0D2168306C00A22CEE /* WebsocketAppiOSTests.xctest */,
+				F486BD182168306C00A22CEE /* WebsocketAppiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F486BCFB2168306800A22CEE /* WebsocketAppiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F486BCFC2168306800A22CEE /* AppDelegate.swift */,
+				F486BCFE2168306800A22CEE /* ViewController.swift */,
+				F486BD002168306800A22CEE /* Main.storyboard */,
+				F486BD032168306C00A22CEE /* Assets.xcassets */,
+				F486BD052168306C00A22CEE /* LaunchScreen.storyboard */,
+				F486BD082168306C00A22CEE /* Info.plist */,
+			);
+			path = WebsocketAppiOS;
+			sourceTree = "<group>";
+		};
+		F486BD102168306C00A22CEE /* WebsocketAppiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F486BD112168306C00A22CEE /* WebsocketAppiOSTests.swift */,
+				F486BD132168306C00A22CEE /* Info.plist */,
+			);
+			path = WebsocketAppiOSTests;
+			sourceTree = "<group>";
+		};
+		F486BD1B2168306C00A22CEE /* WebsocketAppiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F486BD1C2168306C00A22CEE /* WebsocketAppiOSUITests.swift */,
+				F486BD1E2168306C00A22CEE /* Info.plist */,
+			);
+			path = WebsocketAppiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F486BCF82168306800A22CEE /* WebsocketAppiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486BD212168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOS" */;
+			buildPhases = (
+				F486BCF52168306800A22CEE /* Sources */,
+				F486BCF62168306800A22CEE /* Frameworks */,
+				F486BCF72168306800A22CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebsocketAppiOS;
+			productName = WebsocketAppiOS;
+			productReference = F486BCF92168306800A22CEE /* WebsocketAppiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F486BD0C2168306C00A22CEE /* WebsocketAppiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486BD242168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOSTests" */;
+			buildPhases = (
+				F486BD092168306C00A22CEE /* Sources */,
+				F486BD0A2168306C00A22CEE /* Frameworks */,
+				F486BD0B2168306C00A22CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F486BD0F2168306C00A22CEE /* PBXTargetDependency */,
+			);
+			name = WebsocketAppiOSTests;
+			productName = WebsocketAppiOSTests;
+			productReference = F486BD0D2168306C00A22CEE /* WebsocketAppiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F486BD172168306C00A22CEE /* WebsocketAppiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F486BD272168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOSUITests" */;
+			buildPhases = (
+				F486BD142168306C00A22CEE /* Sources */,
+				F486BD152168306C00A22CEE /* Frameworks */,
+				F486BD162168306C00A22CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F486BD1A2168306C00A22CEE /* PBXTargetDependency */,
+			);
+			name = WebsocketAppiOSUITests;
+			productName = WebsocketAppiOSUITests;
+			productReference = F486BD182168306C00A22CEE /* WebsocketAppiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F486BCF12168306700A22CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Jop;
+				TargetAttributes = {
+					F486BCF82168306800A22CEE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F486BD0C2168306C00A22CEE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F486BCF82168306800A22CEE;
+					};
+					F486BD172168306C00A22CEE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F486BCF82168306800A22CEE;
+					};
+				};
+			};
+			buildConfigurationList = F486BCF42168306700A22CEE /* Build configuration list for PBXProject "WebsocketAppiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F486BCF02168306700A22CEE;
+			productRefGroup = F486BCFA2168306800A22CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F486BCF82168306800A22CEE /* WebsocketAppiOS */,
+				F486BD0C2168306C00A22CEE /* WebsocketAppiOSTests */,
+				F486BD172168306C00A22CEE /* WebsocketAppiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F486BCF72168306800A22CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486BD072168306C00A22CEE /* LaunchScreen.storyboard in Resources */,
+				F486BD042168306C00A22CEE /* Assets.xcassets in Resources */,
+				F486BD022168306800A22CEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD0B2168306C00A22CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD162168306C00A22CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F486BCF52168306800A22CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486BCFF2168306800A22CEE /* ViewController.swift in Sources */,
+				F486BCFD2168306800A22CEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD092168306C00A22CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486BD122168306C00A22CEE /* WebsocketAppiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BD142168306C00A22CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486BD1D2168306C00A22CEE /* WebsocketAppiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F486BD0F2168306C00A22CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F486BCF82168306800A22CEE /* WebsocketAppiOS */;
+			targetProxy = F486BD0E2168306C00A22CEE /* PBXContainerItemProxy */;
+		};
+		F486BD1A2168306C00A22CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F486BCF82168306800A22CEE /* WebsocketAppiOS */;
+			targetProxy = F486BD192168306C00A22CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F486BD002168306800A22CEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F486BD012168306800A22CEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F486BD052168306C00A22CEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F486BD062168306C00A22CEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F486BD1F2168306C00A22CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F486BD202168306C00A22CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F486BD222168306C00A22CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F486BD232168306C00A22CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F486BD252168306C00A22CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebsocketAppiOS.app/WebsocketAppiOS";
+			};
+			name = Debug;
+		};
+		F486BD262168306C00A22CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebsocketAppiOS.app/WebsocketAppiOS";
+			};
+			name = Release;
+		};
+		F486BD282168306C00A22CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebsocketAppiOS;
+			};
+			name = Debug;
+		};
+		F486BD292168306C00A22CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebsocketAppiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.WebsocketAppiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebsocketAppiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F486BCF42168306700A22CEE /* Build configuration list for PBXProject "WebsocketAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486BD1F2168306C00A22CEE /* Debug */,
+				F486BD202168306C00A22CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486BD212168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486BD222168306C00A22CEE /* Debug */,
+				F486BD232168306C00A22CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486BD242168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486BD252168306C00A22CEE /* Debug */,
+				F486BD262168306C00A22CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F486BD272168306C00A22CEE /* Build configuration list for PBXNativeTarget "WebsocketAppiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F486BD282168306C00A22CEE /* Debug */,
+				F486BD292168306C00A22CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F486BCF12168306700A22CEE /* Project object */;
+}
